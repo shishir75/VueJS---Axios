@@ -16,7 +16,7 @@
       }
     },
     created() {
-      axios.get('https://vue-axios-f48ab.firebaseio.com/users.json')
+      axios.get('/users.json')
         .then(res => {
           console.log(res);
           const data = res.data;
